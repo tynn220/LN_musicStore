@@ -1,10 +1,19 @@
-<%@include file="/common/header.jsp"%>
-
 
 <html>
 <%@include file="/common/header.jsp"%>
-<body>
 
+<body>
+<script>
+    $(document).ready(function(){
+        var searchCondition = '${searchCondition}';
+
+        $('.table').DataTable({
+            "lengthMenu": [[1,2,3,5,10,-1], [1,2,3,5,10, "All"]],
+            "oSearch": {"sSearch": searchCondition}
+        });
+    });
+
+</script>
 <%@include file="/common/nav-bar.jsp"%>
 <div class="container-wrapper">
     <div class="container">

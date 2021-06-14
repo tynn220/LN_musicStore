@@ -1,4 +1,4 @@
-<%@include file="taglib.jsp"%>
+<%@include file="taglib.jsp" %>
 <!DOCTYPE html>
 
 <head>
@@ -13,52 +13,20 @@
     <title>Music Store</title>
 
     <!-- Angular JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+
+    <!-- JQuery libs -->
+<%--    <script type="text/javascript" src="<c:url value="/template/jquery/jquery-2.1.4.min.js"/>"></script>--%>
+
+    <!-- Data table -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<c:url value="/template/css/bootstrap.min.css" />" />
+    <link rel="stylesheet" href="<c:url value="/template/css/bootstrap.min.css" />"/>
     <!-- main css -->
-    <link rel="stylesheet" href="<c:url value="/template/css/main.css" />" />
-    <link rel="stylesheet" href="<c:url value="/template/css/carousel.css" />" />
+    <link rel="stylesheet" href="<c:url value="/template/css/main.css" />"/>
+    <link rel="stylesheet" href="<c:url value="/template/css/carousel.css" />"/>
 
-<%--    <style>--%>
-
-<%--        .container-wrapper{--%>
-<%--            height: 80%;--%>
-<%--            margin: auto;--%>
-<%--            margin-top: 80px;--%>
-<%--            margin-bottom: 300px;--%>
-<%--        }--%>
-<%--        .home-image{--%>
-<%--            display: block;--%>
-<%--            width: 100%; !important;--%>
-<%--            height: auto; !important;--%>
-<%--        }--%>
-<%--        .table{--%>
-<%--            table-layout: fixed;--%>
-<%--            overflow: auto;--%>
-<%--        }--%>
-<%--        .table th{--%>
-<%--            text-align: center;--%>
-<%--        }--%>
-<%--        .table td{--%>
-<%--            text-align: center;--%>
-<%--            background: whitesmoke;--%>
-
-<%--            /*display: block;*/--%>
-<%--            overflow: hidden;--%>
-<%--            text-overflow: ellipsis;--%>
-<%--        }--%>
-<%--    </style>--%>
-
-<%--    <style>--%>
-<%--        .home-image{--%>
-<%--            display: block;--%>
-<%--            width: 100%; !important;--%>
-<%--            height: auto; !important;--%>
-<%--        }--%>
-<%--        .size{--%>
-<%--            height: 800px;--%>
-<%--        }--%>
-<%--    </style>--%>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"/>
 </head>

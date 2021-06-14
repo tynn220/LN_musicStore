@@ -5,6 +5,16 @@
 <%@include file="/common/header.jsp"%>
 <body>
 <%@include file="/common/nav-bar.jsp"%>
+<script>
+    $(document).ready(function(){
+
+        $('.table').DataTable({
+            "lengthMenu": [[1,2,3,5,10,-1], [1,2,3,5,10, "All"]],
+
+        });
+    });
+
+</script>
 <div class="container-wrapper">
 
     <div class="container">

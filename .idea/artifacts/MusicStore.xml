@@ -58,6 +58,7 @@
           <element id="library" level="project" name="Maven: org.springframework.webflow:spring-webflow:2.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.webflow:spring-binding:2.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: opensymphony:ognl:2.6.11" />
+          <element id="library" level="project" name="Maven: org.json:json:20160810" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="LN_ude_eMusicStore/web/Web" />
